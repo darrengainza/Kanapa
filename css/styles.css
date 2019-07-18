@@ -94,6 +94,9 @@ body {
   text-align: center;
   margin-bottom: 200px;
 }
+.values-title {
+  padding: 80px;
+}
 
 .box {
   padding: 150px 0px;
@@ -214,6 +217,15 @@ margin: 0px;
   right: 20px;
   color: white;
   text-align: center;
+  padding-right: 275px;
+  padding-left: 275px;
+}
+.text-block-home {
+  position: absolute;
+  bottom: 375px;
+  right: px;
+  color: white;
+  text-align: left;
   padding-right: 275px;
   padding-left: 275px;
 }
