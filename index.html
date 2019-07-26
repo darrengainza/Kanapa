@@ -14,38 +14,43 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
-<body id="home-body">
-    <div class="header">
-        <ul>
-            <li><a href="/contact.html"><b>CONTACT</b></a></li>
-            <li><a href="/about.html"><b>ABOUT</b></a></li>
-            <li><a href="/products.html"><b>PRODUCTS</b></a></li>
-            <li class="active"><a href="/index.html"><b>HOME</b></a></li>
-            <li id="header-logo"><a href="/index.html"><img src="assets/kanapa_web.png" alt="KANAPA"></a></li>
-        </ul>
-    </div>
-
+<body>
+    <nav>
+        <div class="header-logo"><a href="/index.html"><img src="assets/kanapa_web.png" alt="KANAPA"></a></div>
+        
+            
+            <ul class="nav-links">
+                <li><a href="/contact.html"><b>CONTACT</b></a></li>
+                <li><a href="/about.html"><b>ABOUT</b></a></li>
+                <li><a href="/products.html"><b>PRODUCTS</b></a></li>
+                <li class="active"><a href="/index.html"><b>HOME</b></a></li>
+            </ul>
+        <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
     <main role="main">
 
 
-            <div class="iamge-with-text">
-                    <img class="banner1" src="assets/cbd_tink.jpg" width="100%">
-                    <div class="text-block-home">
-                        <h1 style="font-size: 40pt"><b>VIRGINIA’S NEWEST CBD STORE</b></h1>
+            <div class="image-with-text">
+                        <img src="assets/CBD_tink.jpg" width="100%">
+                        <div class="center" style="font-size:5vw;"><b>VIRGINIA’S NEWEST CBD STORE</b></div>
                         <br>
-                        <h5 style="font-size: 15pt">JOIN US FOR OUR GRAND OPENING</h5>
-                    </div>
-                </div>
-
-
-        <div class="container">
-            <div class="box">
-                <h1 class="brand" style="text-align: center;"> <b>CBD BENEFITS</b></h1>
-                <!-- Marketing messaging and featurettes
+                        <div class="center2" style="font-size:3vw;">JOIN US FOR OUR GRAND OPENING</div>
+                    
+            </div>
+<!-- Marketing messaging and featurettes
                 ================================================== -->
                 <!-- Wrap the rest of the page in another container to center all the content. -->
 
                 <!-- Three columns of text below the carousel -->
+
+        <div class="container">
+            <div class="box">
+                <h1 class="brand" style="font-size:5vw;"><b>CBD BENEFITS</b></h1>
                 <div class="row">
                     <div class="col-lg-4">
                         <h2 class="values">PAIN RELIEF</h2>
@@ -98,8 +103,9 @@
                 <li>&copy; KANAPA</li>
                 <li>Info@KanapaCBD.com</li>
                 <li>2927 West Cary Street Richmond VA 23221</li>
-                <li id="insta-icon"><a href=""><img src="assets/insta-11.png" alt="instagram" /></a></li>
-                <li id="facebook-icon"><a href=""><img src="assets/facebook-11.png" alt="facebook" /></a></li>
+                <li>+1 (434) 906 - 1914</li>
+                <a href="https://www.instagram.com/kanapa2927/"><li id="insta-icon"><a href=""><img src="assets/insta-11.png" alt="instagram" /></a></li></a>
+                <a href="https://www.facebook.com/kanapa.cbd"><li id="facebook-icon"><a href=""><img src="assets/facebook-11.png" alt="facebook" /></a></li></a>
             </ul>
         </div>
         <!-- FOOTER -->
@@ -107,7 +113,10 @@
             <p class="float-right"><a href="#">Back to top</a></p>
             <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
         </footer> -->
+     
     </main>
+
+    <script src="app.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
