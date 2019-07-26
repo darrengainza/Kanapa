@@ -5,13 +5,44 @@ body {
   padding: 0px;
   font-family: "Arial", Gadget, sans-serif;
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 9vh;
+  background-color: #111;
+  font-family: "Arial", Gadget, sans-serif;
+  
 
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  flex-direction: row-reverse;
+  z-index: 1;
+}
+.nav-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 15pt;
+  
+
+}
+.nav-links li {
+ 
+  list-style: none;
+  
+}
 .header ul {
   list-style-type: none;
   margin: 0;
   padding: 15px;
   overflow: hidden;
   background-color: #111;
+
 }
 
 .header li {
@@ -34,6 +65,10 @@ body {
 .header li.active a {
   color: #A9A9A9;
 }
+.header-logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 #header-logo {
   float: left;
@@ -43,6 +78,81 @@ body {
   padding: 0px;
   margin: 0px;
 }
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px; 
+  transition: all 0.5s ease;
+}
+.burger {
+  display: none;
+}
+@media screen and (max-width:1020px){
+  .nav-links {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 60%;
+  }
+}
+@media screen and (max-width:768px){
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 30%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}
+.nav-active {
+  transform: translateX(0%);
+  z-index: 1;
+ 
+}
+
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+  opacity: 0;
+}
+
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+html {
+  font-size: 20px;
+}
+
 
 #myCarousel {
   margin: 0px;
@@ -60,12 +170,19 @@ body {
   padding: 100px;
 }
 .brand {
-  margin: 60px;
+  text-align: center;
 }
 .rounded {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+}
+.rounded2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
   width: 50%;
 }
 
@@ -149,8 +266,13 @@ margin: 0px;
 .carousel-caption.text-left {
   padding: 200px;
 }
+.footer {
+  bottom: 0;
+  width: 100%;
+}
 
 .footer ul {
+  margin-bottom: 0;
   position: relative;
   left: 0;
   bottom: 0;
@@ -162,6 +284,18 @@ margin: 0px;
   padding: 20px;
   list-style-type: none;
 }
+@media screen and (max-width:1090px){
+  .footer ul {
+    height: 180px;
+   
+  }
+}
+@media screen and (max-width:755px){
+  .footer ul {
+    height: 220px;
+   
+  }
+}
 
 .footer li {
   float: left;
@@ -171,17 +305,37 @@ margin: 0px;
   color: white;
   text-align: center;
 }
+@media screen and (max-width:1090px) {
+  .footer li {
+   padding: 10px;
+    width: 50%;
+  }
+}
+@media screen and (max-width:900px) {
+  .footer li {
+    width: 50%;
+  }
+}
 
 .footer #insta-icon {
   float: right;
   padding: 10px;
+}
+@media screen and (max-width:1090px) {
+  .footer #insta-icon {
+   width: 50%;
+  }
 }
 
 .footer #facebook-icon {
   float: right;
   padding: 10px;
 }
-
+@media screen and (max-width:1090px) {
+  .footer #facebook-icon {
+   width: 50%;
+  }
+}
 .map-container {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -200,8 +354,21 @@ margin: 0px;
 
 .image-with-text {
   position: relative;
+  text-align: left;
+  color: white;
 }
-
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center2 {
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  
+}
 .text-block {
   position: absolute;
   bottom: 450px;
@@ -217,15 +384,6 @@ margin: 0px;
   right: 20px;
   color: white;
   text-align: center;
-  padding-right: 275px;
-  padding-left: 275px;
-}
-.text-block-home {
-  position: absolute;
-  bottom: 375px;
-  right: px;
-  color: white;
-  text-align: left;
   padding-right: 275px;
   padding-left: 275px;
 }
