@@ -327,7 +327,10 @@ margin: 0px;
   bottom: 0;
   width: 100%;
 }
-
+.fda {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .footer ul {
   margin-bottom: 0;
   position: relative;
