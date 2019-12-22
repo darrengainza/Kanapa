@@ -491,17 +491,7 @@ margin: 0px;
   transform: translate(-50%, -50%);
   width: 80%;
 }
-@media (max-width: 600px) {
-  .center-pro {
-    position: absolute;
-    top: 16%;
-    left: 50%;
-    transform: translate(-50%, -16%);
-    color: white;
-    width: 80%;
-    text-align: center;
-  }
-}
+
 .center2-pro {
   position: absolute;
   top: 55%;
@@ -509,72 +499,7 @@ margin: 0px;
   transform: translate(-50%, -50%);
   width: 80%;
 }
-@media (max-width: 1200px) {
-  .center2-pro {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -35%);
-  color: white;
-  width: 80%;
-  text-align: center;
-  }
-}
-@media (max-width: 900px) {
-  .center2-pro {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  color: white;
-  width: 80%;
-  text-align: center;
-  }
-}
-@media (max-width: 700px) {
-  .center2-pro {
-  position: absolute;
-  top: 28%;
-  left: 50%;
-  transform: translate(-50%, -28%);
-  color: white;
-  width: 80%;
-  text-align: center;
-  }
-}
-@media (max-width: 600px) {
-  .center2-pro {
-  position: absolute;
-  top: 23%;
-  left: 50%;
-  transform: translate(-50%, -23%);
-  color: white;
-  width: 80%;
-  text-align: center;
-  }
-}
-@media (max-width: 450px) {
-  .center2-pro {
-  position: absolute;
-  top: 21%;
-  left: 50%;
-  transform: translate(-50%, -21%);
-  color: white;
-  width: 80%;
-  text-align: center;
-  }
-}
-@media (max-width: 350px) {
-  .center2-pro {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -20%);
-  color: white;
-  width: 80%;
-  text-align: center;
-  }
-}
+
 .text-block {
   position: absolute;
   bottom: 450px;
