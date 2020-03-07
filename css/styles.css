@@ -211,6 +211,13 @@ html {
   margin-left: 10%;
   margin-right: 10%;
 }
+.brand-pro-sub-labresults {
+  text-align: center;
+  margin-bottom: 7%;
+  font-size: 2vw;
+  margin-left: 8%;
+  margin-right: 8%;
+}
 .rounded {
   display: block;
   margin-left: auto;
