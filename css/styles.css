@@ -495,7 +495,13 @@ margin: 0px;
   transform: translate(-50%, -50%);
   width: 80%;
 }
-
+.center-pro-lab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
 .center2-pro {
   position: absolute;
   top: 55%;
