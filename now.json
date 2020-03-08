@@ -17,6 +17,10 @@
         {
             "src": "/products",
             "dest": "/products.html"
+        },
+        {
+            "src": "/labreports",
+            "dest": "/labreports.html"
         }
     ]
 }
