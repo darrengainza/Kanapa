@@ -611,3 +611,17 @@ margin: 0px;
     padding: 10%;
   }
 }
+.button-report {
+	background-color: $blue;
+	border: 2px solid white;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+	&:hover {
+		background-color: white;
+		color: $blue;
+		border: 2px solid $blue;
+	}
