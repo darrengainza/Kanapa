@@ -695,7 +695,7 @@ a {
 .bg-modal-1 {
 	background-color: rgba(0, 0, 0, 0.8);
 	width: 100%;
-	height: 135vw;
+	height: 90vw;
 	position: absolute;
 	top: 0;
 	display: none;
@@ -704,8 +704,8 @@ a {
 }
 
 .modal-contents-1 {
-	height: 120vw;
-	width: 50vw;
+	height: 80vw;
+	width: 30vw;
 	background-color: white;
 	text-align: center;
 	padding: 10px;
