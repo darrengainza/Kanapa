@@ -1082,6 +1082,45 @@ a {
 }
 
 
+
+.button-report-6 {
+	color: #00b659;
+}
+.bg-modal-6 {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 75vw;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-contents-6 {
+	height: 60vw;
+	width: 50vw;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.close-6 {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+
+@media(max-width: 768px) {
   .bg-modal-6 {
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
@@ -1117,5 +1156,4 @@ a {
   .report-6 {
     width: 1vw;
   }
-
-
+}
