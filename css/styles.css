@@ -461,9 +461,14 @@ margin: 0px;
 }
 .center {
   position: absolute;
-  top: 15%;
+  top: 11%;
   left: 12%;
   color: black;
+}
+a {
+    color: #00b659;
+    text-decoration: none;
+    background-color: transparent;
 }
 .center-about {
   position: absolute;
