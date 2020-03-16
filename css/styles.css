@@ -462,24 +462,8 @@ margin: 0px;
 .center {
   position: absolute;
   top: 15%;
-  left: 10%;
-  a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover, a:active {
-  background-color: red;
-}
-.center2 {
-  position: absolute;
-  top: 70%;
-  left: 25%;
-  
+  left: 12%;
+  color: black;
 }
 .center-about {
   position: absolute;
