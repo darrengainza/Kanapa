@@ -24,7 +24,6 @@ const navSlide = () => {
 
 }
 
-navSlide();
 
 
 document.getElementById('button-report').addEventListener("click", function() {
