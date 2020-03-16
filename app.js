@@ -84,3 +84,12 @@ document.querySelector('.close-6').addEventListener("click", function() {
 });
 
 
+document.getElementById('button-report-7').addEventListener("click", function() {
+	document.querySelector('.bg-modal-7').style.display = "flex";
+});
+
+document.querySelector('.close-7').addEventListener("click", function() {
+	document.querySelector('.bg-modal-7').style.display = "none";
+});
+
+
