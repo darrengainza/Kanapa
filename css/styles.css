@@ -1237,7 +1237,8 @@ margin: 0px;
 .button-store {
   position: absolute;
   top: 30%;
-  background-color: #4CAF50; /* Green */
+  left: 38%;
+  background-color: black; /* Green */
   border: none;
   color: white;
   padding: 10px;
@@ -1251,7 +1252,7 @@ margin: 0px;
 
 }
 a {
-    color: #00b659;
+    color: white;
     text-decoration: none;
     background-color: transparent;
 }
