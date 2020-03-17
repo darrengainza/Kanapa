@@ -1237,3 +1237,17 @@ a {
     width: 1vw;
   }
 }
+
+.button-store {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4vw;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
