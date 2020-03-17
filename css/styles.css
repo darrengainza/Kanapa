@@ -465,11 +465,7 @@ margin: 0px;
   left: 12%;
   color: black;
 }
-a {
-    color: #00b659;
-    text-decoration: none;
-    background-color: transparent;
-}
+
 .center-about {
   position: absolute;
   top: 33%;
@@ -1239,10 +1235,14 @@ a {
 }
 
 .button-store {
+  position: absolute;
+  top: 30%;
+  left: auto;
+  right: auto;
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -1250,4 +1250,5 @@ a {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+
 }
