@@ -1250,3 +1250,8 @@ margin: 0px;
   border-radius: 8px;
 
 }
+a {
+    color: #00b659;
+    text-decoration: none;
+    background-color: transparent;
+}
